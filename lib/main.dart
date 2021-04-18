@@ -17,22 +17,22 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: Scaffold(
-        appBar: AppBar(title: Text("Explore")),
+        appBar: AppBar(title: Text("Profile")),
         bottomNavigationBar: BottomNavigationBar(
           items: [
             BottomNavigationBarItem(
-                icon: Icon(Icons.home),
-                title: Text("home"),
-                backgroundColor: Colors.blue
-            ),
-            BottomNavigationBarItem(
                 icon: Icon(Icons.search),
-                title: Text("search"),
+                title: Text("Explore"),
                 backgroundColor: Colors.blue
             ),
             BottomNavigationBarItem(
-                icon: Icon(Icons.camera),
-                title: Text("camera"),
+                icon: Icon(Icons.add),
+                title: Text("requests"),
+                backgroundColor: Colors.blue
+            ),
+            BottomNavigationBarItem(
+                icon: Icon(Icons.account_circle),
+                title: Text("Profile"),
                 backgroundColor: Colors.blue
             ),
           ],
